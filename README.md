@@ -1,17 +1,33 @@
 # MOS-Phase-2
 Multiprogramming Operating System Project, Phase-2
 
+This project is the extension of OS Phase1. In phase 1, OS could perform only read, write operation and some simple execution of commands. 
+In phase 2, it can detect errors and print error in the output file. 
+Types of error detected by the OS are :
+
+    1.Operation code error  
+    
+    2.Line limit exceeded
+    
+    3.Operand error
+    
+    4.Invalid page fault
+    
+    5.Out of Data Error
+
+At the end of execution, output is stored in output.txt file.
+
 --ASSUMPTIONS:
- Jobs may have program errors
- PI interrupt for program errors introduced
- No physical separation between jobs
- Job outputs separated in output file by 2 blank lines
- Paging introduced, page table stored in real memory
- Program pages allocated one of 30 memory block using random number generator
- Load and run one program at a time
- Time limit, line limit, out-of-data errors introduced
- TI interrupt for time-out error introduced
- 2-line messages printed at termination
+* Jobs may have program errors
+* PI interrupt for program errors introduced
+* No physical separation between jobs
+* Job outputs separated in output file by 2 blank lines
+* Paging introduced, page table stored in real memory
+* Program pages allocated one of 30 memory block using random number generator
+* Load and run one program at a time
+* Time limit, line limit, out-of-data errors introduced
+* TI interrupt for time-out error introduced
+* 2-line messages printed at termination
 
 --NOTATION
 M: memory
